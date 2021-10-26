@@ -1,0 +1,21 @@
+{
+    "name": "Dracula-Dark-Theme",
+    "displayName": "Veer-Khatri_Dracula_dark_theme",
+    "description": "this theme is a rainbow syntax hyliting theme with mix of dracula and dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Veer-Khatri🔥🔥 Dracula Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Veer-Khatri🔥🔥 Dracula Dark Theme-color-theme.json"
+            }
+        ]
+    }
+}
