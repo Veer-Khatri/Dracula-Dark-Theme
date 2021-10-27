@@ -62,6 +62,25 @@
 			}
 		},
 		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#fc68ef"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.property",
+				"support.variable.property"
+			],
+			"settings": {
+				"foreground": "#27f3e9"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
@@ -203,7 +222,7 @@
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
+				
 				"constant.language",
 				"support.constant",
 				"constant.character",
@@ -214,6 +233,16 @@
 			],
 			"settings": {
 				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"constant.numeric",
+				"constant.numeric.decimal"
+			],
+			"settings": {
+				"foreground": "#ffffff"
 			}
 		},
 		{
