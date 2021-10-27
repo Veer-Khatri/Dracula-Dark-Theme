@@ -4,22 +4,29 @@
 	"colors": {
 		"button.hoverBackground": "#ff0000",
 		"terminalCursor.foreground": "#38f712",
-		"editor.background": "#01182e",
+		"editor.background": "#1f212c",
+		
 		"editor.foreground": "#ffffff",
-		"activityBarBadge.background": "#0099ff",
+		
+		"activityBarBadge.background": "#3c515e",
+		"activityBarBadge.foreground": "#ffffff",
 		"sideBar.background": "#011c35",
 		"panel.border": "#0092d6",
 		"statusBar.background": "#344874",
-		"editorCursor.foreground": "#ffee00",	
+		"editorCursor.foreground": "#ffee00",
 		"foreground": "#ffffff",
 		"sideBar.foreground": "#d6f3e1",
-		"editor.selectionBackground": "#90939450",
+		"editor.selectionBackground": "#909394",
+		"titleBar.activeBackground": "#1e2d49",
 		"sideBar.border": "#0092d6",
 		"icon.foreground": "#55f335",
-		"sideBarSectionHeader.background" : "#1e2d49",
-		"activityBar.foreground" : "#c9c9c9",
+		"sideBarSectionHeader.background": "#1e2d49",
+		"activityBar.foreground": "#b6d0ff",
 		"activityBar.background": "#022342",
-		"activityBar.activeBorder": "#ffffff",
+		"list.hoverForeground": "#ff0000",
+		"tab.activeForeground": "#55f335",
+		"tab.inactiveForeground": "#b6b5b5",
+		"activityBar.activeBorder": "#00ffb3",
 		"focusBorder": "#ffee00",
 	},
 	"tokenColors": [
@@ -38,10 +45,20 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+				
 				"string constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#26ff00"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.object"
+			],
+			"settings": {
+				"foreground": "#ff9900"
 			}
 		},
 		{
@@ -71,15 +88,34 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#bc57ff"
+				"foreground": "#c56afa"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"keyword.operator.arithmetic"
+			],
+			"settings": {
+				"foreground": "#8702d4"
 			}
 		},
 		{
 			"name": "Operator,  Misc",
 			"scope": [
 				"keyword.control",
+
+			],
+			"settings": {
+				"foreground": "#f800ba"
+			}
+		},
+		    {
+			"name": "Operator,  Misc",
+			"scope": [
 				"constant.other.color",
-				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
@@ -90,12 +126,13 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#1ecbff"
+				"foreground": "#25cffa"
 			}
 		},
 		{
 			"name": "Tag",
 			"scope": [
+				
 				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter"
@@ -107,20 +144,47 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
+				"meta.function-call"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"meta.function.expression"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
 				"entity.name.function",
-				"meta.function-call",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#4efdac"
+				"foreground": "#4efd5c"
 			}
 		},
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other"
+				"meta.block  "
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"variable.other "
+
 			],
 			"settings": {
 				"foreground": "#ffffff"
@@ -203,7 +267,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#1ebfff"
+				"foreground": "#1ecbff"
 			}
 		},
 		{
@@ -248,6 +312,7 @@
 			}
 		},
 		{
+			
 			"name": "Attributes",
 			"scope": [
 				"entity.other.attribute-name"
@@ -260,7 +325,7 @@
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic entity.other.attribute-name",
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -327,7 +392,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#ff37ff"
 			}
 		},
 		{
@@ -339,7 +404,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground":"#5264ff"
+				"foreground": "#5264ff"
 			}
 		},
 		{
