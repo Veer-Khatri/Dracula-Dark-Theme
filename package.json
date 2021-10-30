@@ -1,8 +1,8 @@
 {
     "name": "dracula-dark-theme",
     "displayName": "Veer-Khatri_Dracula_dark_theme",
-    "description": "this theme is a rainbow syntax hyliting theme with mix of dracula and dark theme",
-    "version": "0.0.1",
+    "description": "this theme is a rainbow syntax highlighting theme with mix of dracula and dark theme",
+    "version": "1.0.0",
     "publisher": "VeerKhatri-Virtual-Tech-Station",
     "repository": {
         "type": "git",
