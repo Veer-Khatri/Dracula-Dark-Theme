@@ -5,9 +5,7 @@
 		"button.hoverBackground": "#ff0000",
 		"terminalCursor.foreground": "#38f712",
 		"editor.background": "#1f212c",
-		
 		"editor.foreground": "#ffffff",
-		
 		"activityBarBadge.background": "#3c515e",
 		"activityBarBadge.foreground": "#ffffff",
 		"sideBar.background": "#011c35",
@@ -45,7 +43,6 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				
 				"string constant.other.placeholder"
 			],
 			"settings": {
@@ -70,6 +67,7 @@
 				"foreground": "#fc68ef"
 			}
 		},
+		
 		{
 			"name": "Variables",
 			"scope": [
@@ -142,7 +140,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"punctuation.separator.key-value"
 			],
 			"settings": {
 				"foreground": "#25cffa"
@@ -175,7 +174,7 @@
 				"meta.function.expression"
 			],
 			"settings": {
-				"foreground": "#fff"
+				"foreground": "#ffffff"
 			}
 		},
 		{
