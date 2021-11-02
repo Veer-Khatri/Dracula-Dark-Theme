@@ -25,7 +25,7 @@
 		"tab.activeForeground": "#55f335",
 		"tab.inactiveForeground": "#b6b5b5",
 		"activityBar.activeBorder": "#00ffb3",
-		"focusBorder": "#ffee00",
+		"focusBorder": "#ffee00"		
 	},
 	"tokenColors": [
 		{
