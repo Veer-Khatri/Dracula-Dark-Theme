@@ -27,6 +27,10 @@
 		"activityBar.activeBorder": "#00ffb3",
 		"focusBorder": "#ffee00"		
 	},
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 7,
+    "terminal.integrated.cursorBlinking": true,
 	"tokenColors": [
 		{
 			"name": "Comment",
@@ -64,7 +68,8 @@
 				"variable.other.object.property"
 			],
 			"settings": {
-				"foreground": "#fc68ef"
+				"foreground": "#fc68ef",
+				
 			}
 		},
 		
@@ -75,7 +80,18 @@
 				"support.variable.property"
 			],
 			"settings": {
-				"foreground": "#27f3e9"
+				"foreground": "#27f3e9",
+				"fontStyle": "italic bold" 
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.readwrite.alias"
+			],
+			"settings": {
+				"foreground": "#fff",
+				"fontStyle": "bold italic"
 			}
 		},
 		{
@@ -117,6 +133,30 @@
 			],
 			"settings": {
 				"foreground": "#8702d4"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword.control.default",
+				"keyword.control.flow",
+				"keyword.control.import",
+				"keyword.control.from"
+			],
+			"settings": {
+				"foreground": "#ff00b3",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword.control.export"
+
+			],
+			"settings": {
+				"foreground": "#ff00b3",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -186,7 +226,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#4efd5c"
+				"foreground": "#4efd5c",
+				"fontStyle": "italic underline" 
 			}
 		},
 		{
