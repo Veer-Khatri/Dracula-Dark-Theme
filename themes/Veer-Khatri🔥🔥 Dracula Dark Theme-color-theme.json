@@ -65,6 +65,15 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"variable.other.constant"
+			],
+			"settings": {
+				"fontStyle": "italic underline"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
 				"variable.other.object.property"
 			],
 			"settings": {
