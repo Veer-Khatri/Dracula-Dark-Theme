@@ -2,7 +2,7 @@
 	"name": "Veer-Khatri🔥🔥 Dracula Dark Theme",
 	"type": "dark",
 	"colors": {
-		"button.hoverBackground": "#ff0000",
+		"button.hoverBackground": "#ff1111",
 		"terminalCursor.foreground": "#38f712",
 		"editor.background": "#1f212c",
 		"editor.foreground": "#ffffff",
@@ -25,12 +25,22 @@
 		"tab.activeForeground": "#55f335",
 		"tab.inactiveForeground": "#b6b5b5",
 		"activityBar.activeBorder": "#00ffb3",
-		"focusBorder": "#ffee00"		
+		"focusBorder": "#ffee00",
+		"statusBar.debuggingBackground": "#d220ff",
+		"statusBar.debuggingBorder": "#cc00ff",
+		"panelTitle.activeBorder": "#3cff00",	
+		"panelTitle.activeForeground": "#28ff33",		
+		"panelTitle.inactiveForeground": "#b9c0ce",	
+		"titleBar.border": "#000",		
+		"editorLineNumber.foreground":"#c4e4ff",
+		"editorLineNumber.activeForeground": "#1793f8",	
 	},
     "editor.cursorBlinking": "expand",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 7,
     "terminal.integrated.cursorBlinking": true,
+	
+	
 	"tokenColors": [
 		{
 			"name": "Comment",
