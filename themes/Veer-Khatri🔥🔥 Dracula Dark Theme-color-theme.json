@@ -239,7 +239,7 @@
 			],
 			"settings": {
 				"foreground": "#4efd5c",
-				"fontStyle": "italic underline"
+				"fontStyle": "italic "
 			}
 		},
 		{
