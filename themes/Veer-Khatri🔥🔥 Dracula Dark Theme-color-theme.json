@@ -187,6 +187,7 @@
 			"scope": [
 				"constant.other.color",
 				"punctuation.definition.tag",
+				"punctuation.definition.template-expression.begin",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
