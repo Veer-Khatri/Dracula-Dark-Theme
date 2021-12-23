@@ -183,6 +183,29 @@
 			}
 		},
 		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			// to find name
+			"scope": [
+				"constant.language.booslean.false.js"
+			],
+			"settings": {
+				"foreground": "#fd3e3e",
+				"fontStyle": "italic bold"
+
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			// to find name
+			"scope": [
+				"constant.language.boolean.true.js"
+			],
+			"settings": {
+				"foreground": "#2afd34",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
 			"name": "Operator,  Misc",
 			"scope": [
 				"constant.other.color",
@@ -294,7 +317,7 @@
 				"constant.numeric.decimal"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#1793f8"
 			}
 		},
 		{
