@@ -140,6 +140,16 @@
 			}
 		},
 		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"storage.modifier.async",
+				"keyword.control.flow"
+			],
+			"settings": {
+				"foreground": "#ff2d7e"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": [
 				"keyword.operator.assignment",
@@ -186,7 +196,7 @@
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			// to find name
 			"scope": [
-				"constant.language.booslean.false.js"
+				"constant.language.boolean.false.js"
 			],
 			"settings": {
 				"foreground": "#fd3e3e",
