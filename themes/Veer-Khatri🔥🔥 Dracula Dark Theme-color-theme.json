@@ -82,6 +82,15 @@
 		{
 			"name": "Variables",
 			"scope": [
+				"variable.other.constant.property"
+			],
+			"settings": {
+				"fontStyle": "italic "
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
 				"variable.other.object.property"
 			],
 			"settings": {
@@ -157,6 +166,7 @@
 				"keyword.operator.arithmetic"
 			],
 			"settings": {
+				"fontStyle": "italic bold ",
 				"foreground": "#8702d4"
 			}
 		},
@@ -337,6 +347,47 @@
 			],
 			"settings": {
 				"foreground": "#1277fc"
+			}
+		},
+		{
+			"name": "Object",
+			"scope": [
+				"meta.objectliteral",
+				"punctuation.definition.block"
+			],
+			"settings": {
+				"fontStyle": "bold italic",
+				"foreground": "#f7e817"
+			}
+		},
+		{
+			"name": "braces , comma , accessor ",
+			"scope": [
+				"meta.brace.round",
+				"punctuation.separator.comma",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Object",
+			"scope": [
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "braces",
+			"scope": [
+				"meta.brace.square"
+			],
+			"settings": {
+				"foreground": "#ff5100"
 			}
 		},
 		{
