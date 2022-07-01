@@ -15,17 +15,19 @@ Visual Studio Marketplace Downloads
 ## Features
 
 - Dark mode
-- different font styles
+- Dark Blue and Green color combo  
+- Different font styles for different variables
 - supports multiple languages
-- rainbow🌈 theme  
-- Blue and Green combo 
+- rainbow 🌈 theme  
 
 
 ## Feedback
 
 Want some changes?
 I have a youtube channel you can reach me out there 
-#### Link of Youtube Channel { https://www.youtube.com/channel/UCF_ny3E0irGu3AwZloTxDvw }
+#### Link of Youtube Channel { https://www.youtube.com/c/VIRTUALTECHSTATION }
+OR 
+#### Email me on virtualtechstation63@gmail.com 
 
 ## Usage/Examples
 
@@ -44,13 +46,11 @@ Install theme with npm
 
 ```bash
    --install-extension VeerKhatri-Virtual-Tech-Station.dracula-dark-theme 
-
 ```
 update theme with npm 
 
 ```bash
     --force--install-extension VeerKhatri-Virtual-Tech-Station.dracula-dark-theme 
-
 ```
 ## Authors
 
@@ -64,5 +64,5 @@ update theme with npm
 
 ## Support
 
-For support, email virtualtechstation63@gmail.com or join our Slack channel.
+For support, email me on virtualtechstation63@gmail.com 
 
