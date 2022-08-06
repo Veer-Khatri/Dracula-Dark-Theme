@@ -3,8 +3,18 @@
 
 This theme is a mix of Dracula theme, Dark theme with some blue color and some fontStyle also. Want some changes? I have a YouTube channel you can comment me there
 
-![Logo](VTS.jpg)
-## Badges
+## Usage/Examples
+
+These images contains react,Html and javascript as code
+ 
+Image 1
+![image](pic1.jpg)
+Image 2
+![image](pic2.jpg)
+Image 3
+![image](pic3.jpg)
+
+## Downloads/Installations
 Visual Studio Marketplace Installs
 ![GPLv3 License](https://img.shields.io/visual-studio-marketplace/i/VeerKhatri-Virtual-Tech-Station.dracula-dark-theme)
 
@@ -27,17 +37,9 @@ Want some changes?
 I have a youtube channel you can reach me out there 
 #### Link of Youtube Channel { https://www.youtube.com/c/VIRTUALTECHSTATION }
 OR 
-#### Email me on virtualtechstation63@gmail.com 
+#### Email me on {virtualtechstation63@gmail.com} 
 
-## Usage/Examples
 
-These images contains react,Html and javascript as code 
-Image 1
-![image](pic1.jpg)
-Image 2
-![image](pic2.jpg)
-Image 3
-![image](pic3.jpg)
 
 
 ## Installation
@@ -66,3 +68,4 @@ update theme with npm
 
 For support, email me on virtualtechstation63@gmail.com 
 
+![Logo](VTS.jpg)
